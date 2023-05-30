@@ -14,6 +14,15 @@ aqui encontraran el trabajo individual 3 del modulo 4
 
 > La preview se genera con codigo JS retrocompatible en el directorio **dist** gracias a vite.# INICIAR CON VITE
 
+## para cambios de nombre en el branch desde git a vsc 
+
+```
+git branch -m main 4-5-individual5
+git fetch origin
+git branch -u origin/4-5-individual5 4-5-individual5
+git remote set-head origin -a
+```
+
 ## para crear un vite desde cero
 [ BAJAR VIDEO TUTORIAL ](https://drive.google.com/file/d/1josdj7yrJVu3c5eR0SLWAPdlveBm0ndO/view?usp=sharing)
 

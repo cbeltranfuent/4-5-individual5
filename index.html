@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<!-- inicio head -->
+
+<head>
+  <!-- meta sobre el lenguaje latino -->
+  <meta charset="UTF-8">
+  <!-- meta sobre la compatibilidad con ie -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- meta para ajustar a tamañs de movil o tablet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link para resetear los css a travez de un css. -->
+  <link rel="stylesheet" href="./src/reset.css">
+  <!-- link para colocar estilos en css -->
+  <link rel="stylesheet" href="./src/style.css">
+  <!-- meta para descripcion de la pagina -->
+  <meta name="description" content="estudio, Html, HTML, html5, javaScript, CSS3, ">
+  <!-- meta para el indexador vea de que trata la pagina -->
+  <meta name="keywords" content="estudio, Html, HTML, html5, javaScript, CSS3, css, js, pagina, PAGINA, WEB, Etc">
+  <!-- link para colocar icono y nombre en la viñeta de la pagina -->
+  <link rel="icon" type="image/svg+xml" href="./src/public/vite.svg" />
+  <!-- title que lleva el nombre de la pagina en el head. esto solo es visible en viñeta o pestaña de la pagina. -->
+  <title>ejercicio individual 5 modulo 4- callbacks</title>
+</head>
+<!-- fin head -->
+
+<!-- inicio body -->
+
+<body class="sticky-top">
+  <section class="text-body-emphasis container text-center">
+    <!-- <header class="sticky-top text-center">
+    </header> -->
+    <section class="divSection container row">
+      <!-- inicio nav  -->
+      <div class="divNavbar justify-content-md-center col">
+        <nav class="navbar justify-content-md-center">
+          <!-- <nav> -->
+          <a class="aNavbar navbar-brand navbar-expand-lg navbar-dark bg-dark" href="#">
+            <!-- <a href="#"> -->
+            <img src="./src/public/logo_awakelab_transparente.png" alt="Logo" height="30"
+              class="d-inline-block align-text-top me-4">
+            ACTIVIDAD individual 4 - MODULO 4 - CALLBACKS
+          </a>
+        </nav>
+      </div>
+      <!-- cierre nav -->
+      <div class="clock col" id="clock">
+
+      </div>
+
+    </section>
+    <section class="text-body-emphasis row">
+      <div class="video-bg">
+        <video width="320" height="240" autoplay loop muted>
+          <source src="./src/public/Purple Neon Modern Gaming Channel Youtube Intro.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="app">
+        <div id="app"></div>
+      </div>
+      <div class="main">
+        <main id="main">
+          <!-- Agregar un input y un botón para que el usuario pueda ingresar el nombre o ID del Pokemon -->
+          <input type="number" id="pokemonInput" placeholder="Ingrese el ID del Pokemon">
+          <button id="buscarPokemon">Buscar Pokemon</button>
+
+          <!-- Agregar un elemento para mostrar el resultado -->
+          <div id="resultado"></div>
+
+          <div id="data"></div>
+        </main>
+      </div>
+      <div class="container row">
+        <div class="footer col">
+          <footer class="text-body-emphasis bg-dark fixed-bottom col">
+            todos los derechos reservados - carlos beltran fuentealba 2023
+          </footer>
+        </div>
+      </div>
+    </section>
+  </section>
+  <script type="module" src="./src/main.js"></script>
+
+</body>
+<!-- cierre body -->
+
 </html>
